@@ -15,16 +15,21 @@ class Player:
             self ("Guesser ): An instance of Guesser.
         """
         self.word = ""
-        self.guess_letter = [ "_", "_", "_", "_", "_"]
+        self.guess_letter = []
     
     def generate_word( self ):
         """Generates word that will be guessed.
         Args:
             self ( Guesser ): An instance of Guesser.
         """
-        word_list = [ "smile", "angry", "ramen", "towel", "tiger", "whale", "fruit", "grape", "syrup" ]
-        random_number = random.randint( 1, len( word_list ) - 1)
-        self.word = word_list[ random_number ]
+        word_list = [ "smile", "angry", "ramen", "towel", "tiger", "whale", "wonderful", "one", "sky", "binoculars", "jumper", "trampoline"]
+        chosen_word = random.choice(word_list)
+        self.word = chosen_word
+        self.num_letters = len(self.word)
+    
+    def generate_lines( self ):
+        for i in range(self.num_letters):
+            self.guess_letter.append("_")
 
     def check_guess( self, letter ):
         """Checks the user's current guess. 

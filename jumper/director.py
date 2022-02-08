@@ -39,6 +39,7 @@ class Director:
             self ( Director ): an instance of Director.
         """
         self.guesser.generate_word()
+        self.guesser.generate_lines()
         self.do_outputs()
         while self.keep_playing:
             self.get_inputs()
