@@ -1,5 +1,5 @@
 # Jumper
-Play one of the most entertaining puzzles! The jumper is a guessing game that starts with a hidden word and a full jumper figure. You need to try to guess one letter of this word at a time. If the letter is not in the word, the jumper will lose a line. Whenever you find a letter in the word, then the jumper remains the same. Here is the goal: you need to guess the word before you lose the jumper completely.
+Play one of the most entertaining puzzles! The jumper is a guessing game that starts with a hidden word and a full parachute and jumper figure. You need to guess one letter of this word at a time. If the letter is not in the word, the parachute loses part of the parachute. Whenever you find a letter in the word, then the parachute remains the same. Here is the goal: you need to guess the word before you lose the jumper's head ^-^. Good luck!
 
 ## Getting Started
 ---
