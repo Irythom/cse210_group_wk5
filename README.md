@@ -1,12 +1,12 @@
 # Jumper
-Ready to play Hilo? These are the rules: Each card will be represented by a number (1-13). You start with 300 hundred points. A card is displayed and you need to guess if the one is higher or lower. If you guess correctly, you earn 100 points. If you guess incorrectly, you lose 75 points. Each turn you decide if you want to continue or not. Once you reach 0 points, the game is over. 
+Play one of the most entertaining puzzles! The jumper is a guessing game that starts with a hidden word and a full jumper figure. You need to try to guess one letter of this word at a time. If the letter is not in the word, the jumper will lose a line. Whenever you find a letter in the word, then the jumper remains the same. Here is the goal: you need to guess the word before you lose the jumper completely.
 
 ## Getting Started
 ---
 Make sure you have Python 3.8.0 or newer installed and running on your machine. Open a terminal and 
 browse to the project's root folder. Start the program by running the following command.
 ```
-python3 hilo
+python3 jumper
 ```
 You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
 project folder. Select the main module inside the dice folder and click the "run" button.
@@ -29,3 +29,7 @@ root                    (project root folder)
 ## Authors
 ---
 * Miguel López (lop18028@byui.edu)
+* Ryan Weinheimer (ryanweinheimer@gmail.com)
+* Diana Guerra (diana.1609@hotmail.com)
+* Eduardo Mosquera Galarza (mos21008@byui.edu)
+* Chioneso Chatayika
