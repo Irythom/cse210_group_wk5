@@ -32,4 +32,4 @@ root                    (project root folder)
 * Ryan Weinheimer (ryanweinheimer@gmail.com)
 * Diana Guerra (diana.1609@hotmail.com)
 * Eduardo Mosquera Galarza (mos21008@byui.edu)
-* Chioneso Chatayika
+* Chioneso Chatayika(cchatayika@outlook.com)
