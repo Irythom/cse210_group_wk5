@@ -48,5 +48,17 @@ class Terminal_service:
         print()
         for i in range ( 0, len(parachute ), 1 ):
             print( parachute[i] )
+              
         print()
         print( "^^^^^^^" )
+
+        if parachute[0] == "  X":
+            print("Game over")
+
+        else:
+            print("Play")
+        
+    
+            
+
+    
