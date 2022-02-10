@@ -41,8 +41,8 @@ root                    (project root folder)
 ---
 
 - 2 PM team: Combined effort to code player.py and terminal service.py. Divided director.py by one function per individual, and volunteered for finishing touches/ editing.
-- Miguel López (lop18028@byui.edu) : Coded the updates portion of the director class, main.py, parachute.py, and oversaw the review of the project as a whole. Submitted the assignment as the group lead for the week.
-- Ryan Weinheimer (ryanweinheimer@gmail.com) : coded the init portion of the director class, and added encapsulation to the entire director class. Added contributions to README
+- Miguel López (lop18028@byui.edu) : Coded the updates portion of the director class, main.py, parachute.py, and oversaw the review of the project as a whole. Added encapsulation to the methods of Director class. Submitted the assignment as the group lead for the week.
+- Ryan Weinheimer (ryanweinheimer@gmail.com) : coded the init portion of the director class, and added encapsulation to the entire director class. Added contributions to README file.
 - Diana Guerra (diana.1609@hotmail.com) : Coded the start game portion of the director class. Added words to the generate word portion of player class. Put together README file.
 - Eduardo Mosquera Galarza (mos21008@byui.edu) : Coded the outputs portion of the director class. Reviewed and edited project.
 - Chioneso Chatayika(cchatayika@outlook.com) : Coded the inputs portion of the director class. Reviewed and edited project.
