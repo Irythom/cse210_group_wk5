@@ -42,13 +42,13 @@ class Director:
         """
         self._guesser.generate_word()
         self._guesser.generate_lines()
-        self.do_outputs()
+        self._do_outputs()
         while self._keep_playing:
-            self.get_inputs()
-            self.do_updates()
-            self.do_outputs()
+            self._get_inputs()
+            self._do_updates()
+            self._do_outputs()
 
-    def get_inputs(self):
+    def _get_inputs(self):
         """Gets the inputs at the beginning of each round of play. In this instance it means
         getting a letter from the user.
         Args:
@@ -56,7 +56,7 @@ class Director:
         """
         self._letter = self._console.get_letter()
 
-    def do_updates(self):
+    def _do_updates(self):
         """Updates the important game information for each round of play. In this case
         that means checking the parachute and cutting off part if user guess is wrong.
         As well as keeping track of correct guesses and updating the current word.
@@ -76,7 +76,7 @@ class Director:
         if self._word_guessed == True:
             self._keep_playing = False
 
-    def do_outputs(self):
+    def _do_outputs(self):
         """Outputs the important game information for each round of play. Such as the current word
         and the status of the jumper.
         Args:
